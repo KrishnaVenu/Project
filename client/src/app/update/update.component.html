@@ -1,0 +1,34 @@
+<div class="card">
+    <form (ngSubmit)="editUser()">
+        <div class="card-header">{{title}}</div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td><label>Username</label></td>
+                            <td><input type="text"name="userName" [(ngModel)]="updateItem.userName"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>Email</label></td>
+                            <td><input type="text"name="email" [(ngModel)]="updateItem.email"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>Address</label></td>
+                            <td><input type="text"name="address" [(ngModel)]="updateItem.address"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>Phone</label></td>
+                            <td><input type="text"name="phone" [(ngModel)]="updateItem.phone"/></td>
+                        </tr>
+                            
+                        <tr>
+                            <td></td>
+                            <td><input type="submit"class="submit" value="Submit"/></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </form>
+</div>

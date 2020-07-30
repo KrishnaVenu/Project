@@ -1,0 +1,26 @@
+body{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(253, 52, 2) 0%, rgb(2, 109, 20) 96%);
+}
+h5{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 150%;
+  letter-spacing: 2px;
+  padding: 10px;
+   color: rgb(17, 2, 104);
+   margin: 5px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+p{
+  font-family: cursive;
+  color: rgb(100, 6, 80);
+  padding: 30px;
+  margin: 5px;
+  text-indent: 100px;
+}
+.mycard2{
+  text-align:justify;
+  margin: 30px;
+  padding: 10px;
+}

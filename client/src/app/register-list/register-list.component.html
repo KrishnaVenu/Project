@@ -1,0 +1,30 @@
+<div class="mycard">
+<div class="card">
+    <div class="card-header">{{title}}</div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Phone</th>
+                         </tr>
+                </thead>
+                <tbody>
+                     <tr *ngFor = 'let user of users '>
+                             <td>{{user.userName}}</td>
+                             <td>{{user.email}}</td>
+                             <td>{{user.address}}</td>
+                             <td>{{user.phone}}</td>
+                           <a routerLink="/update"class="btn btn-primary">Update</a> 
+                             <!--<button class="btn btn-primary"(click)="deleteUser()">Delete</button> -->
+                             
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</div>

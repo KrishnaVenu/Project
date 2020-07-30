@@ -1,0 +1,16 @@
+.card-header{
+    background-color: navy;
+    color:rgb(255, 255, 253);
+text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 2px;
+text-align:center;
+font-size: 50px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-shadow:2px 2px 4px khaki;
+}
+tbody{
+    background-color: firebrick;
+    color: darkgray;
+    height: 100%;
+}
